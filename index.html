@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HAPPY ANNIVERSARY NIG-</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>💖 Happy 2nd Anniversary Hon! 💖</h1>
+
+    <!-- ⏱️ TIMER (HIDDEN BY DEFAULT) -->
+    <div id="timer-display" class="hidden">0:00</div>
+
+    <!-- Chessboard -->
+    <div id="chessboard"></div>
+
+    <!-- Chat box -->
+    <div id="chat">
+        <p id="chat-message">Galingan mo honey!</p>
+    </div>
+
+    <!-- Buttons -->
+    <button id="reset-btn">Reset Game</button>
+</div>
+
+<!-- 💌 MODAL -->
+<div id="love-modal" class="modal hidden">
+    <div class="modal-content">
+        <h2 id="modal-title">💌 Love Letter 💌</h2>
+        <p id="modal-text"></p>
+        <button id="close-modal">Close 💖</button>
+    </div>
+</div>
+
+<!-- 🎵 Background Music -->
+<audio id="bg-music" loop>
+    <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_115b9bce5c.mp3" type="audio/mpeg">
+</audio>
+
+<!-- 💖 Floating Hearts -->
+<div id="hearts-container"></div>
+
+<!-- ♟️ Chess.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+
+<!-- Your Script -->
+<script src="script.js"></script>
+
+</body>
+</html>
